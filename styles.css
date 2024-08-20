@@ -1,0 +1,190 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.left-container {
+    width: 50%;
+    margin: 0 5vw;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.right-container{
+    margin: 10vh 0;
+}
+header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.branding h1{
+    display: inline;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.accent {
+    color: #a141ff;
+}
+.navbar-container{
+    margin: 0 20px;
+    height: 10vh;
+}
+nav a{
+    text-decoration: none;
+    float: right;
+    margin: 0 10px;
+    color: #a141ff;
+}
+.hero {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text h2 {
+    font-size: 90px;
+    color: #333;
+
+}
+
+.hero-text select, .hero-text button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: grey;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.hero-image{
+    width: 100%;
+    height: 50vh;
+    align-content:left;
+    margin: 0 auto;
+}
+
+.destinations {
+    padding: 50px 0;
+}
+
+.destinations h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.destinations p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.destination {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+.destination h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.destination p {
+    color: #777;
+}
+
+.destination button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #a141ff;
+    color: white;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: #eaeaea;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    margin: auto;
+    width:50%;
+}
+
+.contact form input {
+    width: 45vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+.contact select{
+    width: 46.3vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+.contact button {
+    background-color: #a141ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10vw;
+    padding: 10px;
+}
+.selectcont{
+    width: 60vw;
+    display: inline-block;
+    position: absolute;
+}
+.hero-text h1{
+    font-size: 4rem;
+    color: hwb(327 10% 38%);
+    font-weight: 100;
+}
+.south{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.explore{
+    margin:8px 0;
+    color: #ccc;
+}
