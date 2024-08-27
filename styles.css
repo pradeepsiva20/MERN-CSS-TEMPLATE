@@ -8,7 +8,7 @@ body {
 }
 
 .left-container {
-    width: 50%;
+    width: 35%;
     margin: 0 5vw;
     overflow: hidden;
     display: inline-block;
@@ -18,7 +18,7 @@ body {
     margin: 10vh 0;
 }
 header {
-    background-color: #f4f4f4;
+    background-color: #183e52;
     padding: 10px 0;
     border-bottom: 2px solid #ccc;
 }
@@ -43,7 +43,7 @@ nav a{
     color: #a141ff;
 }
 .hero {
-    background-color: white;
+    background-color: rgb(234, 216, 206);
     padding: 50px 0;
     display: flex;
     align-items: center;
@@ -60,27 +60,29 @@ nav a{
     padding: 10px;
     font-size: 16px;
     border: none;
-    background-color: white;
-    color: grey;
+    background-color: rgb(218, 208, 208);
+    color: rgb(90, 15, 230);
     border: 2px solid black;
     cursor: pointer;
 }
 
 .hero-image{
-    width: 100%;
+    width: 600px;
     height: 50vh;
     align-content:left;
-    margin: 0 auto;
+   
 }
 
 .destinations {
     padding: 50px 0;
+    background-color: #001d58
 }
 
 .destinations h2 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 10px;
+    background-color: antiquewhite;
 }
 
 .destinations p {
@@ -93,12 +95,13 @@ nav a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    background-color: #c3bce4;
 }
 
 .destination {
-    background-color: #f9f9f9;
+    ackground-color: rgb(195 184 218 / 60%);
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #161313;
     text-align: center;
 }
 
@@ -113,7 +116,7 @@ nav a{
 }
 
 .destination p {
-    color: #777;
+    color: #161313;
 }
 
 .destination button {
@@ -122,12 +125,12 @@ nav a{
     font-size: 14px;
     border: none;
     background-color: #a141ff;
-    color: white;
+    color: rgb(231, 221, 221);
     cursor: pointer;
 }
 
 .contact {
-    background-color: #eaeaea;
+    background-color: #001d58;
     padding: 50px 0;
 }
 
@@ -171,7 +174,7 @@ nav a{
     padding: 10px;
 }
 .selectcont{
-    width: 60vw;
+    width: 45vw;
     display: inline-block;
     position: absolute;
 }
