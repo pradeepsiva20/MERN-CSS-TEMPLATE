@@ -99,7 +99,7 @@ nav a{
 }
 
 .destination {
-    ackground-color: rgb(195 184 218 / 60%);
+    background-color: rgb(195 184 218 / 60%);
     padding: 20px;
     border: 1px solid #161313;
     text-align: center;
@@ -113,6 +113,8 @@ nav a{
 .destination h3 {
     font-size: 18px;
     margin-top: 10px;
+
+
 }
 
 .destination p {
